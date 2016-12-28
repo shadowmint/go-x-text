@@ -1,0 +1,23 @@
+{
+  "name": "go-x-text",
+  "version": "1.0.0",
+  "description": "This is an NPM compatible fork of x/text",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "files": [
+    "*.go",
+    "scripts"
+  ],
+  "author": "",
+  "license": "",
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "ncp": "^2.0.0"
+  }
+}
